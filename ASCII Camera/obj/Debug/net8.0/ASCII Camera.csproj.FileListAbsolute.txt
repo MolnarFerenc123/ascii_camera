@@ -1,0 +1,24 @@
+C:\Users\Feri\source\repos\ASCII Camera\obj\Debug\net8.0\ASCII Camera.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Feri\source\repos\ASCII Camera\obj\Debug\net8.0\ASCII Camera.AssemblyInfoInputs.cache
+C:\Users\Feri\source\repos\ASCII Camera\obj\Debug\net8.0\ASCII Camera.AssemblyInfo.cs
+C:\Users\Feri\source\repos\ASCII Camera\obj\Debug\net8.0\ASCII Camera.csproj.CoreCompileInputs.cache
+C:\Users\Feri\source\repos\ASCII Camera\bin\Debug\net8.0\ASCII Camera.exe
+C:\Users\Feri\source\repos\ASCII Camera\bin\Debug\net8.0\ASCII Camera.deps.json
+C:\Users\Feri\source\repos\ASCII Camera\bin\Debug\net8.0\ASCII Camera.runtimeconfig.json
+C:\Users\Feri\source\repos\ASCII Camera\bin\Debug\net8.0\ASCII Camera.dll
+C:\Users\Feri\source\repos\ASCII Camera\bin\Debug\net8.0\ASCII Camera.pdb
+C:\Users\Feri\source\repos\ASCII Camera\obj\Debug\net8.0\ASCII Camera.dll
+C:\Users\Feri\source\repos\ASCII Camera\obj\Debug\net8.0\refint\ASCII Camera.dll
+C:\Users\Feri\source\repos\ASCII Camera\obj\Debug\net8.0\ASCII Camera.pdb
+C:\Users\Feri\source\repos\ASCII Camera\obj\Debug\net8.0\ASCII Camera.genruntimeconfig.cache
+C:\Users\Feri\source\repos\ASCII Camera\obj\Debug\net8.0\ref\ASCII Camera.dll
+C:\Users\Feri\source\repos\ASCII Camera\obj\Debug\net8.0\ASCII Camera.csproj.AssemblyReference.cache
+C:\Users\Feri\source\repos\ASCII Camera\bin\Debug\net8.0\AForge.dll
+C:\Users\Feri\source\repos\ASCII Camera\bin\Debug\net8.0\AForge.Video.dll
+C:\Users\Feri\source\repos\ASCII Camera\bin\Debug\net8.0\AForge.Video.DirectShow.dll
+C:\Users\Feri\source\repos\ASCII Camera\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Feri\source\repos\ASCII Camera\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Feri\source\repos\ASCII Camera\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Feri\source\repos\ASCII Camera\obj\Debug\net8.0\ASCII Ca.D7A5A1E7.Up2Date
+C:\Users\Feri\source\repos\ASCII Camera\bin\Debug\net8.0\AForge.Imaging.dll
+C:\Users\Feri\source\repos\ASCII Camera\bin\Debug\net8.0\AForge.Math.dll
