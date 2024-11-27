@@ -1,0 +1,394 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "AForge/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/AForge.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.dll": {}
+        }
+      },
+      "AForge.Imaging/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "AForge": "2.2.5",
+          "AForge.Math": "2.2.5"
+        },
+        "compile": {
+          "lib/AForge.Imaging.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.Imaging.dll": {}
+        }
+      },
+      "AForge.Math/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "AForge": "2.2.5"
+        },
+        "compile": {
+          "lib/AForge.Math.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.Math.dll": {}
+        }
+      },
+      "AForge.Video/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "AForge": "2.2.5"
+        },
+        "compile": {
+          "lib/AForge.Video.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.Video.dll": {}
+        }
+      },
+      "AForge.Video.DirectShow/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "AForge.Video": "2.2.5"
+        },
+        "compile": {
+          "lib/AForge.Video.DirectShow.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.Video.DirectShow.dll": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Drawing.Common/8.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AForge/2.2.5": {
+      "sha512": "clkumhM9DggqIzEXAHgVLeWO4arG5YfoPr7J4jfjJx35AoeEIJSSm49J25bwp/9mXQYLwi7y1Wunc8qgYJsGxg==",
+      "type": "package",
+      "path": "aforge/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aforge.2.2.5.nupkg.sha512",
+        "aforge.nuspec",
+        "lib/AForge.dll",
+        "lib/AForge.xml"
+      ]
+    },
+    "AForge.Imaging/2.2.5": {
+      "sha512": "n8l7Zdsm89EFW9Uz4uCO3D428Gu4Q56YxixSMJPruen1c30R8R9Mm8AreTdoOi2XjN5id04JwFFlXYTk8pIIfw==",
+      "type": "package",
+      "path": "aforge.imaging/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aforge.imaging.2.2.5.nupkg.sha512",
+        "aforge.imaging.nuspec",
+        "lib/AForge.Imaging.dll",
+        "lib/AForge.Imaging.xml"
+      ]
+    },
+    "AForge.Math/2.2.5": {
+      "sha512": "pmT1WobVv13vMxwXhCu8sRunxjiUHyURWS0+dsW/aBPi06xiyYIdCLHI6jph9Axb4QoLIlb85eBI6zd2EAbGIg==",
+      "type": "package",
+      "path": "aforge.math/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aforge.math.2.2.5.nupkg.sha512",
+        "aforge.math.nuspec",
+        "lib/AForge.Math.dll",
+        "lib/AForge.Math.xml"
+      ]
+    },
+    "AForge.Video/2.2.5": {
+      "sha512": "XqzcOXtBUagEPRqg/00oayxlCPmxP4284SdM62mVotsNoD03fs19BrzdMBfhUOOYPyd0B/IXH7tEWnSDmc2gxA==",
+      "type": "package",
+      "path": "aforge.video/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aforge.video.2.2.5.nupkg.sha512",
+        "aforge.video.nuspec",
+        "lib/AForge.Video.dll",
+        "lib/AForge.Video.xml"
+      ]
+    },
+    "AForge.Video.DirectShow/2.2.5": {
+      "sha512": "pEch6felU/RGAbl0A7yjaQjsGxwiRFU9R+qBqR92wQo++XhzPLeQaZHnAPIBYaG7MfoqtjgCDkK4z3Tra4VQ3w==",
+      "type": "package",
+      "path": "aforge.video.directshow/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aforge.video.directshow.2.2.5.nupkg.sha512",
+        "aforge.video.directshow.nuspec",
+        "lib/AForge.Video.DirectShow.dll",
+        "lib/AForge.Video.DirectShow.xml"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "sha512": "9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Win32.SystemEvents.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Win32.SystemEvents.targets",
+        "lib/net462/Microsoft.Win32.SystemEvents.dll",
+        "lib/net462/Microsoft.Win32.SystemEvents.xml",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Drawing.Common/8.0.10": {
+      "sha512": "MdajRp3P+FOlThgY6FBjAqnmLiVl5t2yWEC/2AsDMqx1zYbJG3G5TnscFBQ4obqcaGqvN5UnhQHSFaJFG2HftQ==",
+      "type": "package",
+      "path": "system.drawing.common/8.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Drawing.Common.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Drawing.Common.dll",
+        "lib/net462/System.Drawing.Common.pdb",
+        "lib/net462/System.Drawing.Common.xml",
+        "lib/net6.0/System.Drawing.Common.dll",
+        "lib/net6.0/System.Drawing.Common.pdb",
+        "lib/net6.0/System.Drawing.Common.xml",
+        "lib/net7.0/System.Drawing.Common.dll",
+        "lib/net7.0/System.Drawing.Common.pdb",
+        "lib/net7.0/System.Drawing.Common.xml",
+        "lib/net8.0/System.Drawing.Common.dll",
+        "lib/net8.0/System.Drawing.Common.pdb",
+        "lib/net8.0/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.pdb",
+        "lib/netstandard2.0/System.Drawing.Common.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "system.drawing.common.8.0.10.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "AForge >= 2.2.5",
+      "AForge.Imaging >= 2.2.5",
+      "AForge.Video >= 2.2.5",
+      "AForge.Video.DirectShow >= 2.2.5",
+      "System.Drawing.Common >= 8.0.10"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Feri\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Egyetem\\C#\\ASCII Camera\\ASCII Camera.csproj",
+      "projectName": "ASCII Camera",
+      "projectPath": "D:\\Egyetem\\C#\\ASCII Camera\\ASCII Camera.csproj",
+      "packagesPath": "C:\\Users\\Feri\\.nuget\\packages\\",
+      "outputPath": "D:\\Egyetem\\C#\\ASCII Camera\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Feri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "AForge": {
+            "target": "Package",
+            "version": "[2.2.5, )"
+          },
+          "AForge.Imaging": {
+            "target": "Package",
+            "version": "[2.2.5, )"
+          },
+          "AForge.Video": {
+            "target": "Package",
+            "version": "[2.2.5, )"
+          },
+          "AForge.Video.DirectShow": {
+            "target": "Package",
+            "version": "[2.2.5, )"
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[8.0.10, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AForge 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AForge",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AForge.Imaging 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AForge.Imaging",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AForge.Math 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AForge.Math",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AForge.Video 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AForge.Video",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AForge.Video.DirectShow 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AForge.Video.DirectShow",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
