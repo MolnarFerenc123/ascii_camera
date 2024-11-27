@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UT454xT9kCA=",
+  "dgSpecHash": "jkNz1b6fvS0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Feri\\source\\repos\\ASCII Camera\\ASCII Camera.csproj",
+  "projectFilePath": "D:\\Egyetem\\C#\\ASCII Camera\\ASCII Camera.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Feri\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
     "C:\\Users\\Feri\\.nuget\\packages\\aforge.imaging\\2.2.5\\aforge.imaging.2.2.5.nupkg.sha512",

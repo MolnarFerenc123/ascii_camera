@@ -260,11 +260,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Feri\\source\\repos\\ASCII Camera\\ASCII Camera.csproj",
+      "projectUniqueName": "D:\\Egyetem\\C#\\ASCII Camera\\ASCII Camera.csproj",
       "projectName": "ASCII Camera",
-      "projectPath": "C:\\Users\\Feri\\source\\repos\\ASCII Camera\\ASCII Camera.csproj",
+      "projectPath": "D:\\Egyetem\\C#\\ASCII Camera\\ASCII Camera.csproj",
       "packagesPath": "C:\\Users\\Feri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Feri\\source\\repos\\ASCII Camera\\obj\\",
+      "outputPath": "D:\\Egyetem\\C#\\ASCII Camera\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Feri\\AppData\\Roaming\\NuGet\\NuGet.Config",
